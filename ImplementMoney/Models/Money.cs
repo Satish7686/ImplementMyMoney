@@ -8,10 +8,10 @@ namespace ImplementMoney.Models
 {
     public class Money : IMoney
     {
-        //[Required]
+        [Required]
         public decimal Amount { get; set; }
 
-        //[Required]
+        [Required]
         public string Currency { get; set; }
     }
 }
